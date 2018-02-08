@@ -3,6 +3,6 @@ class Change
     @coins = coins
   end
   def quarters()
-
+    @coins / 25
   end
 end
